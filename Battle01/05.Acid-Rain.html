@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acid Rain</title>
+</head>
+<body>
+    <div class="container">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+          </div>
+        <style>
+            body {
+            margin:0;
+            padding:0;
+            background-color:#0B2429;
+         
+          }
+          .container{
+            display:flex;
+            justify-content:center;
+            height:100vh;
+            width: 100%;
+            align-items:center;
+            position:relative;
+            
+            
+          }
+          .div1{
+            width: 120px;
+            height: 120px;
+            background: #F3AC3C;
+            border-radius: 120px;
+            position:absolute;
+            margin-bottom:120px;
+            margin-left:120px;
+          }
+          .div2{
+            width: 120px;
+            height: 120px;
+            background: #F3AC3C;
+            border-radius: 120px 0 120px 120px;
+            position:absolute;
+            margin-top:120px;
+            margin-right:120px;
+            z-index:2;
+          }
+            .div3{
+            width: 120px;
+            height: 120px;
+            background: #998235;
+            border-radius: 120px 0 120px 120px;
+            z-index:1;
+          }
+        </style>
+</body>
+</html>
