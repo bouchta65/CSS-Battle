@@ -18,4 +18,3 @@ L'objectif de ce projet est de :
 - Améliorer mes compétences en CSS.
 - Apprendre à optimiser le code CSS pour des résultats précis et minimalistes.
 - Partager mes solutions et idées pour chaque défi de CSS Battle.
-
